@@ -21,5 +21,15 @@ app.get("/host", (req, res) => {
 })
 
 
+// git commit -m "" prepares the comit
+// git status gives all the things that have been changed
+// git push pushes to the repository - updates
+// git add . initial stages (period will add everything in the directory)
+// git clone takes all the files and installs them to your machine
 
+// To add to a machine:
+    // 1. Check status by doing "git status" and see what isnt up to date
+    // 2. add files to push by doing "git add"
+    // 3. prep the files to the repository by " git commit -m "[commit name - descriptive comment]" "
+    // 4. push everything to reposityu by doing "git push" 
 app.listen(port);
